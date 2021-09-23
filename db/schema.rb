@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 2021_09_23_184945) do
 
   create_table "reviews", force: :cascade do |t|
     t.string "name"
-    t.string "discription"
+    t.string "description"
     t.bigint "college_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
