@@ -1,4 +1,5 @@
 class CollegeSerializer
   include FastJsonapi::ObjectSerializer
-  attributes 
+  attributes :id, :name, :mascot, :location
+  has_many :reviews
 end
