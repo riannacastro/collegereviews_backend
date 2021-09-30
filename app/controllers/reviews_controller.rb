@@ -4,4 +4,10 @@ class ReviewsController < ApplicationController
         render json: reviews
     end
 
+    def show
+        review = Review.all
+        render json: review
+    end
+
+
 end
