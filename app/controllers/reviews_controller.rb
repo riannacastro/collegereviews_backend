@@ -20,13 +20,19 @@ class ReviewsController < ApplicationController
 
     def update
         review = Review.find_by_id(params[:id])
-        
+
         if review.update(review_params)
             render json: review
         else
             render json: {error: "Review could not be updated."}
         end
 
+    end
+
+    def destroy
+        review = Review.find_by_id(params[:id])
+        review.destroy
+        render json: {message: "Review has been deleted."}
     end
 
 
