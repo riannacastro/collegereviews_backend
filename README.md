@@ -4,4 +4,23 @@ The College Reviews application will be the best resource when deciding what col
 
 ## Motivation
 
-The thought process behind this project was for users to easily research how others may have felt about the college that the user is interested in. By creating this application, a user will have a better take on what to expect when attending a specific college.
+The thought process behind this project was for users to easily research how others may have felt about the preferred college the user is interested in. By creating this application, a user will have a better take on what to expect when attending a specific college.
+
+## Installation
+
+Clone the repository
+
+Open the terminal:
+run ```bundle install```
+
+run ```rails db:migrate```
+
+start the server by running ```rails s```
+
+
+Click this link to find and clone the frontend repository: https://github.com/riannacastro/collegereviews_frontend
+
+Open the terminal:
+run ```open index.html```
+
+A new web browser window or tab will automatically open and you may begin using the application.
